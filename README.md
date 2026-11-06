@@ -6,7 +6,7 @@
   <a href="https://h4lmirn.github.io/radio-kuuchuu-fuyuu/"><img src="https://img.shields.io/badge/%E2%96%B6%20ON%20AIR-Kuuchuu%20Fuyuu-ffd028?style=for-the-badge&labelColor=ff4468" alt="ラジオ空中浮遊を聴く"></a>
 </p>
 
-- キャスターは changsama。声は Muse（AI音声合成）です
+- キャスターは changsama。声は COEIROINK の KANA です
 - 配信は、台本（JSON）と音声を置いて push するだけ。動画ではなく HTML の番組で、再生に合わせてスライド・字幕・キャラ・リンクカードが動きます
 - ニュースの画像は、記事のサイトが共有用に公開している画像（OGP）をそのサイトから直接表示します。画像を保存したり配り直したりはしません
 - 音声の公開は直近 30 日分だけ。台本はずっと残るので、過去の回も文字で読めます
@@ -29,5 +29,5 @@ docs/formats.md      JSON の形
 - プログラム（`index.html`、`tools/`）：MIT License。[myradio](https://github.com/monoradio102/myradio) テンプレート（お手本の局「ものラジオ」）を使って開局しました
 - 台本（`episodes/`、`episodes.json`）：各回の出典リンク先の記事に基づきます
 - キャラ（`character/`）：キャラクター「changsama」は原田遥の分身キャラクターです。AIで生成した画像をもとに作成しました。無断での使用・再配布はできません
-- 声：Muse（AI音声合成）
+- 声：COEIROINK:KANA
 - 天気：Open-Meteo（CC BY 4.0）
