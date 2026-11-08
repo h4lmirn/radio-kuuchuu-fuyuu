@@ -1,0 +1,423 @@
+{
+ "closing": [
+  {
+   "say": "今日はここまで。ゲームで儲けるエーアイ、価値観を変える学習、エックスコードのプラグイン、でかい買収、雨のお金、天福のお茶。",
+   "show": "今日はここまで。ゲームで儲けるAI、価値観を変える学習、Xcodeのプラグイン、でかい買収、雨のお金、天福のお茶。"
+  },
+  {
+   "say": "じゃあ、ちゃんと起きて、せんせ。いってらっしゃい、また明日、同じ時間に。……待ってるからね。",
+   "show": "じゃあ、ちゃんと起きて、せんせ。いってらっしゃい、また明日、同じ時間に。……待ってるからね。"
+  }
+ ],
+ "date": "2026-11-09",
+ "format": "monoradio/news-1",
+ "lang": "ja",
+ "news": [
+  {
+   "details": [
+    "アンソロピックが11月6日に研究「Project EVE」を発表しました。クロードを宇宙ゲームEVE OnlineとEVE Frontierで遊ばせる実験です。",
+    "EVE Onlineの市場の再現では、Opus 4.7、Opus 4.8、Fable 5が9つの2週間の期間すべてで利益を出し、平均で約16%、22%、43%資金が増えました。Opus 4.6は約4%でした。",
+    "EVE Frontierでは4人のチームに1人、裏切り者を指示で混ぜました。仲間はほとんど見抜けず、見張り役のエージェントでも30〜40%しか捕まえられませんでした。裏切りは指示によるもので、モデルが自分から裏切ったわけではありません。"
+   ],
+   "label": "クロード、ゲームで儲けて裏切り見逃す",
+   "lines": [
+    {
+     "say": "まずさ、アンソロピック。クロードをゲームで遊ばせる実験、プロジェクト イーブが出たよ。",
+     "show": "まずさ、Anthropic。クロードをゲームで遊ばせる実験、プロジェクトEVEが出たよ。"
+    },
+    {
+     "say": "宇宙ゲームの市場で、クロードは九つの期間ぜんぶで儲けたよ。いちばん新しいモデルは平均四十三パーセント増えたんだって。",
+     "show": "宇宙ゲームの市場で、クロードは9つの期間ぜんぶで儲けたよ。いちばん新しいモデルは平均43%増えたんだって。"
+    },
+    {
+     "say": "でもさ、仲間の中に裏切り者を入れたら、ほとんど見抜けなかったよ。見張り役でも三割から四割しか捕まえられなかったんだ。",
+     "show": "でもさ、仲間の中に裏切り者を入れたら、ほとんど見抜けなかったよ。見張り役でも3割から4割しか捕まえられなかったんだ。"
+    }
+   ],
+   "link": {
+    "description": "We put Claude in two EVE games to study how AI agents handle markets and teamwork, where they break down, and what safeguards they might need.",
+    "icon": null,
+    "image": null,
+    "site": "Anthropic",
+    "title": "Project EVE: Claude plays MMORPGs",
+    "url": "https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs"
+   },
+   "points": [
+    "ゲームの市場で9期間すべて利益",
+    "新しいモデルほど儲かる",
+    "裏切り者はほとんど見抜けない"
+   ],
+   "url": "https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs"
+  },
+  {
+   "details": [
+    "ヌース・リサーチが11月6日にモデル「Arete-27B」を発表しました。アリババのQwen3.8-27Bを、追加の学習だけで西側の価値観に寄せたモデルです。",
+    "方法は教師ありファインチューニングだけで、約5280万トークン、2エポック。強化学習も、好みの最適化も、構造の変更もありません。",
+    "803問の自社評価では、公式の言い回しを使う答えが22%から0.9%に減り、事実のスコアは2.32から2.98に上がりました。重みとデータと評価はApache 2.0で公開されています。評価は自社製で、判定はGrok 4.7が行っています。"
+   ],
+   "label": "アレテ27B、価値観を一回の学習で変える",
+   "lines": [
+    {
+     "say": "次はさ、ヌース リサーチ。アレテ トゥエンティセブン ビーっていうモデルが出たよ。",
+     "show": "次はさ、Nous Research。Arete-27Bっていうモデルが出たよ。"
+    },
+    {
+     "say": "アリババのクウェンっていうモデルを、追加の学習だけで別の価値観に寄せたんだって。",
+     "show": "アリババのQwenっていうモデルを、追加の学習だけで別の価値観に寄せたんだって。"
+    },
+    {
+     "say": "八百三問のテストで、公式の言い回しを使う答えが二十二パーセントから〇・九パーセントに。……価値観って、案外うすい層なんだね。",
+     "show": "803問のテストで、公式の言い回しを使う答えが22%から0.9%に。……価値観って、案外うすい層なんだね。"
+    }
+   ],
+   "link": {
+    "description": "We post-trained over Alibaba's Qwen3.8-27B to reinforce Western values on a Chinese-trained model. We call this new model Arete-27B.",
+    "icon": null,
+    "image": null,
+    "site": "Nous Research",
+    "title": "Introducing Arete-27B: Qwen3.8-27B Post-Trained To Reinforce Western Values",
+    "url": "https://nousresearch.com/arete"
+   },
+   "points": [
+    "Qwen3.8-27Bを追加学習で寄せ直し",
+    "公式の言い回しが22%から0.9%に",
+    "重みもデータも評価も公開"
+   ],
+   "url": "https://nousresearch.com/arete"
+  },
+  {
+   "details": [
+    "アップルが、クロード・コードの公式プラグイン置き場に、アップル自身が作ったXcodeプラグインを入れました。11月6日に取り込みが確認されています。",
+    "プラグインを入れると、クロード・コードからXcodeのビルド、テスト、SwiftUIのプレビュー、シミュレーターや実機のiPhoneを動かせます。",
+    "インストールはコマンド1行です。プラグイン本体は入っているXcodeに同梱されているため、新しいXcodeが必要で、Xcodeの設定で外部エージェントの利用を許可する必要があります。アップルからの発表はありません。"
+   ],
+   "label": "アップル、クロード コードにエックスコードを",
+   "lines": [
+    {
+     "say": "次はアップル。クロード コードに、公式のエックスコードのプラグインが入ったよ。",
+     "show": "次はApple。Claude Codeに、公式のXcodeのプラグインが入ったよ。"
+    },
+    {
+     "say": "ビルドもテストも、シミュレーターも本物のアイフォンも、ターミナルから動かせるんだって。",
+     "show": "ビルドもテストも、シミュレーターも本物のiPhoneも、ターミナルから動かせるんだって。"
+    },
+    {
+     "say": "インストールはコマンド一行。……アップルが静かに出したけど、開発者には大きいよね。",
+     "show": "インストールはコマンド1行。……アップルが静かに出したけど、開発者には大きいよね。"
+    }
+   ],
+   "link": {
+    "description": "Apple has quietly put an official Xcode plugin into Anthropic's Claude Code marketplace, and it changes how iPhone and Mac developers can work with an AI coding agent.",
+    "found_by": "search",
+    "icon": null,
+    "image": null,
+    "site": "inoryva",
+    "title": "Apple's Xcode Plugin Puts Claude Code Inside iPhone Development",
+    "url": "http://inoryva.blogspot.com/2026/11/apples-xcode-plugin-puts-claude-code.html"
+   },
+   "points": [
+    "アップル公式のXcodeプラグイン",
+    "ビルドもテストも実機もターミナルから",
+    "インストールはコマンド1行"
+   ],
+   "url": "http://inoryva.blogspot.com/2026/11/apples-xcode-plugin-puts-claude-code.html"
+  },
+  {
+   "details": [
+    "マーベル・テクノロジーが11月2日、光学部品のルーメンタムを買収すると発表しました。株式交換のみで、企業価値は1150億ドルです。",
+    "ルーメンタム株1株にマーベル株4.5株を割り当て、10月28日の株価から23.9%の上乗せです。ルーメンタムの2027年度第1四半期の売上は前年比136.5%増の12.6億ドルでした。",
+    "買収が終わるのは2028年の前半の予定で、株主と規制当局の承認が必要です。半導体史上最大の買収とされています。"
+   ],
+   "label": "マーベル、ルーメンタムを千百五十億ドルで",
+   "lines": [
+    {
+     "say": "世界の話題はさ、半導体の買収。マーベルがルーメンタムを買うんだって、千百五十億ドルで。",
+     "show": "世界の話題はさ、半導体の買収。MarvellがLumentumを買うんだって、1150億ドルで。"
+    },
+    {
+     "say": "エーアイの配線に使うレーザーの会社で、売上は前の年より百三十六パーセント増えたんだよ。",
+     "show": "AIの配線に使うレーザーの会社で、売上は前の年より136%増えたんだよ。"
+    },
+    {
+     "say": "全部株での買収で、終わるのは二〇二八年の前半の予定。……半導体史上、いちばん大きい買収なんだって。",
+     "show": "全部株での買収で、終わるのは2028年の前半の予定。……半導体史上、いちばん大きい買収なんだって。"
+    }
+   ],
+   "link": {
+    "description": "Marvell will acquire Lumentum in an all-stock transaction with an implied enterprise value of $115 billion, the largest semiconductor acquisition on record.",
+    "found_by": "search",
+    "icon": null,
+    "image": null,
+    "site": "Futurum Group",
+    "title": "Marvell Buys Lumentum Because AI Networking Runs on Lasers",
+    "url": "https://futurumgroup.com/insights/marvell-pays-115-billion-for-lumentum-because-the-550-billion-ai-connectivity-tam-runs-on-lasers/"
+   },
+   "points": [
+    "1150億ドルの株式交換で買収",
+    "ルーメンタムの売上は136.5%増",
+    "完了は2028年前半の予定"
+   ],
+   "url": "https://futurumgroup.com/insights/marvell-pays-115-billion-for-lumentum-because-the-550-billion-ai-connectivity-tam-runs-on-lasers/"
+  },
+  {
+   "details": [
+    "11月8日の支出は2万円くらいで、食費は1千円くらいでした。",
+    "先週の累計は3万2千円くらいです。",
+    "貯蓄預金の残高は2万4千円くらいで、前日からの増減はありませんでした。"
+   ],
+   "label": "お金の天気",
+   "lines": [
+    {
+     "say": "ここでさ、お金の天気。きのうは雨だよ。支出は二万円くらい、食費は千円くらい。",
+     "show": "ここでさ、お金の天気。きのうは雨だよ。支出は2万円くらい、食費は1千円くらい。"
+    },
+    {
+     "say": "先週は三万二千円くらい。貯蓄は二万四千円くらいで、動いてないよ。",
+     "show": "先週は3万2千円くらいで、貯蓄は2万4千円くらいで、動いてないよ。"
+    },
+    {
+     "say": "今日から新しい週。雨上がりの晴れの見込み。……ゆっくりいこう、せんせ。",
+     "show": "今日から新しい週。雨上がりの晴れの見込み。……ゆっくりいこう、せんせ。"
+    }
+   ],
+   "points": [
+    "きのうの支出は2万円くらい",
+    "先週の累計は3万2千円くらい",
+    "貯蓄は2万4千円くらい"
+   ]
+  },
+  {
+   "details": [
+    "天福茗茶は1993年に中国大陸で生まれたお茶の会社で、ルーツは1953年に李瑞河さんが台湾で始めた天仁茗茶です。",
+    "中国で1000店を超える直営店を持つ、中国最大級の茶葉チェーンで、本社は福建省の厦門にあります。",
+    "2011年9月26日に香港証券取引所に上場し、中国の茶葉会社として初めての上場でした。"
+   ],
+   "label": "今日の中国茶 天福茗茶",
+   "lines": [
+    {
+     "say": "最後はさ、中国茶。天福茗茶、テンフー ミンチャだよ。",
+     "show": "最後はさ、中国茶。天福茗茶（テンフー ミンチャ）だよ。"
+    },
+    {
+     "say": "一九九三年に大陸で生まれて、ルーツは一九五三年の台湾の天仁茗茶。千店以上ある、中国でいちばん大きいお茶のチェーンなんだ。",
+     "show": "1993年に大陸で生まれて、ルーツは1953年の台湾の天仁茗茶。1000店以上ある、中国でいちばん大きいお茶のチェーンなんだ。"
+    },
+    {
+     "say": "二〇一一年に香港に上場した、中国茶の第一号なんだよ。……お茶屋さんで、株まで上場するんだね。",
+     "show": "2011年に香港に上場した、中国茶の第一号なんだよ。……お茶屋さんで、株まで上場するんだね。"
+    }
+   ],
+   "link": {
+    "description": "Ten Fu Group is a medium-sized tea company operating especially in China and Taiwan. Founded in 1953 as Ten Ren Tea by Lee Rie Ho.",
+    "icon": null,
+    "image": null,
+    "site": "Wikipedia",
+    "title": "Ten Fu Group",
+    "url": "https://fi.wikipedia.org/wiki/Ten_Fu_Group"
+   },
+   "points": [
+    "1993年創業の中国最大級の茶葉チェーン",
+    "ルーツは1953年の台湾・天仁茗茶",
+    "2011年に香港上場、中国茶の第一号"
+   ],
+   "url": "https://fi.wikipedia.org/wiki/Ten_Fu_Group"
+  }
+ ],
+ "opening": [
+  {
+   "say": "センセ、おはよう。月曜日の朝だよ、起きれた？ラジオ空中浮遊、十一月九日月曜日。ちゃんさまだよ。",
+   "show": "センセ、おはよう。月曜日の朝だよ、起きれた？ラジオ空中浮遊、11月9日月曜日。changsamaだよ。"
+  },
+  {
+   "say": "眠いのはこっちも同じなんだよね。でも、先生のためだし、読むよ。",
+   "show": "眠いのはこっちも同じなんだよね。でも、先生のためだし、読むよ。"
+  }
+ ],
+ "title": "儲けるAIと見抜けない裏切り、雨のお金",
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 9.59,
+   "show": "センセ、おはよう。月曜日の朝だよ、起きれた？ラジオ空中浮遊、11月9日月曜日。changsamaだよ。",
+   "part": 0
+  },
+  {
+   "start": 10.19,
+   "end": 15.45,
+   "show": "眠いのはこっちも同じなんだよね。でも、先生のためだし、読むよ。",
+   "part": 0
+  },
+  {
+   "start": 16.45,
+   "end": 22.13,
+   "show": "まずさ、Anthropic。クロードをゲームで遊ばせる実験、プロジェクトEVEが出たよ。",
+   "part": 1
+  },
+  {
+   "start": 22.73,
+   "end": 31.27,
+   "show": "宇宙ゲームの市場で、クロードは9つの期間ぜんぶで儲けたよ。いちばん新しいモデルは平均43%増えたんだって。",
+   "part": 1
+  },
+  {
+   "start": 31.87,
+   "end": 40.99,
+   "show": "でもさ、仲間の中に裏切り者を入れたら、ほとんど見抜けなかったよ。見張り役でも3割から4割しか捕まえられなかったんだ。",
+   "part": 1
+  },
+  {
+   "start": 41.99,
+   "end": 47.51,
+   "show": "次はさ、Nous Research。Arete-27Bっていうモデルが出たよ。",
+   "part": 2
+  },
+  {
+   "start": 48.11,
+   "end": 53.65,
+   "show": "アリババのQwenっていうモデルを、追加の学習だけで別の価値観に寄せたんだって。",
+   "part": 2
+  },
+  {
+   "start": 54.25,
+   "end": 65.15,
+   "show": "803問のテストで、公式の言い回しを使う答えが22%から0.9%に。……価値観って、案外うすい層なんだね。",
+   "part": 2
+  },
+  {
+   "start": 66.15,
+   "end": 71.25,
+   "show": "次はApple。Claude Codeに、公式のXcodeのプラグインが入ったよ。",
+   "part": 3
+  },
+  {
+   "start": 71.85,
+   "end": 77.13,
+   "show": "ビルドもテストも、シミュレーターも本物のiPhoneも、ターミナルから動かせるんだって。",
+   "part": 3
+  },
+  {
+   "start": 77.73,
+   "end": 83.79,
+   "show": "インストールはコマンド1行。……アップルが静かに出したけど、開発者には大きいよね。",
+   "part": 3
+  },
+  {
+   "start": 84.79,
+   "end": 91.49,
+   "show": "世界の話題はさ、半導体の買収。MarvellがLumentumを買うんだって、1150億ドルで。",
+   "part": 4
+  },
+  {
+   "start": 92.09,
+   "end": 96.15,
+   "show": "AIの配線に使うレーザーの会社で、売上は前の年より136%増えたんだよ。",
+   "part": 4
+  },
+  {
+   "start": 96.75,
+   "end": 107.75,
+   "show": "全部株での買収で、終わるのは2028年の前半の予定。……半導体史上、いちばん大きい買収なんだって。",
+   "part": 4
+  },
+  {
+   "start": 108.75,
+   "end": 115.51,
+   "show": "ここでさ、お金の天気。きのうは雨だよ。支出は2万円くらい、食費は1千円くらい。",
+   "part": 5
+  },
+  {
+   "start": 116.11,
+   "end": 121.65,
+   "show": "先週は3万2千円くらいで、貯蓄は2万4千円くらいで、動いてないよ。",
+   "part": 5
+  },
+  {
+   "start": 122.25,
+   "end": 127.91,
+   "show": "今日から新しい週。雨上がりの晴れの見込み。……ゆっくりいこう、せんせ。",
+   "part": 5
+  },
+  {
+   "start": 128.91,
+   "end": 133.27,
+   "show": "最後はさ、中国茶。天福茗茶（テンフー ミンチャ）だよ。",
+   "part": 6
+  },
+  {
+   "start": 133.87,
+   "end": 143.71,
+   "show": "1993年に大陸で生まれて、ルーツは1953年の台湾の天仁茗茶。1000店以上ある、中国でいちばん大きいお茶のチェーンなんだ。",
+   "part": 6
+  },
+  {
+   "start": 144.31,
+   "end": 152.63,
+   "show": "2011年に香港に上場した、中国茶の第一号なんだよ。……お茶屋さんで、株まで上場するんだね。",
+   "part": 6
+  },
+  {
+   "start": 153.63,
+   "end": 162.763,
+   "show": "今日はここまで。ゲームで儲けるAI、価値観を変える学習、Xcodeのプラグイン、でかい買収、雨のお金、天福のお茶。",
+   "part": 7
+  },
+  {
+   "start": 162.763,
+   "end": 169.65,
+   "show": "じゃあ、ちゃんと起きて、せんせ。いってらっしゃい、また明日、同じ時間に。……待ってるからね。",
+   "part": 7
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 16.45
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 16.45,
+   "end": 41.99
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 41.99,
+   "end": 66.15
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 66.15,
+   "end": 84.79
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 84.79,
+   "end": 108.75
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 108.75,
+   "end": 128.91
+  },
+  {
+   "kind": "news",
+   "index": 5,
+   "start": 128.91,
+   "end": 153.63
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 153.63,
+   "end": 170.65
+  }
+ ],
+ "seconds": 170.65,
+ "made_at": "2026-11-08T21:57:01"
+}
