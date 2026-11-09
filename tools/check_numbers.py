@@ -99,15 +99,22 @@ def _match_digit_word(text, i):
 
 
 def say_number_tokens(text):
-    """say から桁読みの数字トークンを順に取り出す。
+    """say から数字トークンを順に取り出す。
 
-    数字として認めるのは「2語以上の桁読み」か「単位が直後に付く桁読み」だけ。
-    これで『だし』の『し』や『おなじ』の『に』の誤認を避ける。
+    桁読み（ひらがな）として認めるのは「2語以上の桁読み」か「単位が直後に付く
+    桁読み」だけ。これで『だし』の『し』や『おなじ』の『に』の誤認を避ける。
     おく・まんはゼロを足して展開する。
+    日付の月日は例外で、漢数字のまま読む決まりなので、月・日の直前の
+    漢数字も数字として取り出す。
     """
     for mask in SAY_MASKS:
         text = text.replace(mask, "＠" * len(mask))
-    tokens = []
+    found = []  # (位置, トークン)
+    for m in KANJI_NUM_RE.finditer(text):
+        if m.end() < len(text) and text[m.end()] in "月日":
+            val = parse_kanji_num(m.group(0))
+            if val is not None:
+                found.append((m.start(), str(val)))
     i, n = 0, len(text)
     while i < n:
         word, digit = _match_digit_word(text, i)
@@ -144,17 +151,23 @@ def say_number_tokens(text):
                 s += "0" * 8
             elif tail.startswith("まん"):
                 s += "0" * 4
-            tokens.append(s)
+            found.append((i, s))
             i = j
         else:
             i += len(word)
-    return tokens
+    found.sort(key=lambda p: p[0])
+    return [tok for _, tok in found]
 
 
 def kanji_leftovers_in_say(text):
-    """say に残っている位取りの漢数字（新しい決まりでは禁止）を拾う。"""
+    """say に残っている位取りの漢数字（新しい決まりでは禁止）を拾う。
+
+    日付の月日（直後が月・日の漢数字）は例外として許可する。
+    """
     bad = []
     for m in KANJI_NUM_RE.finditer(text):
+        if m.end() < len(text) and text[m.end()] in "月日":
+            continue
         raw = m.group(0)
         if any(ch in "十百千億" for ch in raw) or len(raw) >= 2:
             bad.append(raw)
