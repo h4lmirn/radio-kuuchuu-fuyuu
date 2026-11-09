@@ -16,6 +16,7 @@
 決まりの詳細は [docs/formats.md](docs/formats.md)。要点：
 
 - 話す文は `{"say": 読み上げ用, "show": 字幕用}`。`say` は TTS が読み間違えない形（日本語なら英字の名前をカタカナに）、`show` はふつうの表記
+- `say` の数字の読み方と、情報を圧縮しすぎないための決まりは [docs/script-rules.md](docs/script-rules.md)。台本を書いたら `tools/check_numbers.py` で say と show の数字を照合する
 - ニュースごとに `label`（見出し）、`points`（要点）、`lines`（話す文）、`url`（出典）。出典は必ず付ける
 - `lines_timed`（文ごとの開始・終了の秒）と `segments`（パートの区切り）は、声を作ったときに書く。声と食い違うと字幕やスライドがずれる
 - 事実は出典に書いてあることだけ。URL は実在を確かめたものだけ
