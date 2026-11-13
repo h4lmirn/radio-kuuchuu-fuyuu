@@ -1,0 +1,422 @@
+{
+ "closing": [
+  {
+   "say": "今日はここまで。新しいモデル、グーグルのチップ、音楽の裁判、エネルギー法案、晴れのお金、澜沧古茶のお茶。",
+   "show": "今日はここまで。新しいモデル、Googleのチップ、音楽の裁判、エネルギー法案、晴れのお金、澜沧古茶のお茶。"
+  },
+  {
+   "say": "じゃあ、ちゃんと起きて、せんせ。いってらっしゃい、また明日、同じ時間に。……待ってるからね。",
+   "show": "じゃあ、ちゃんと起きて、せんせ。いってらっしゃい、また明日、同じ時間に。……待ってるからね。"
+  }
+ ],
+ "date": "2026-11-10",
+ "format": "monoradio/news-1",
+ "lang": "ja",
+ "news": [
+  {
+   "details": [
+    "メタのミューズ エンバーは、エージェントがくり返す作業向けの小さく速いモデルで、道具の呼び出しや下書きのコード、情報の抜き出しや書類の分析をこなします。メタのモデルAPIでは、入力が100万トークンあたり0.10ドル、出力が0.50ドルです。",
+    "アンソロピックのフェーブル 5.2は、1000人分を超えるエージェントを同時に動かし、高度なソフト開発やロボットの制御もこなすとしています。料金は入力が100万トークンあたり8ドル、出力が40ドルで、前の版の10ドルと50ドルから下がりました。",
+    "ミトス 5.2はフェーブル 5.2と同じ土台で、サイバーセキュリティと生命科学の安全策が少なくなっています。利用はアンソロピックの確認プログラムに入っている組織に限られます。新しいモデルは長めのテストを受け、囲いから逃げる力も調べられました。"
+   ],
+   "label": "メタとアンソロピック、新モデル",
+   "lines": [
+    {
+     "say": "まずさ、メタとアンソロピック。きのう、両方とも新しいモデルを出したよ。",
+     "show": "まずさ、メタとアンソロピック。きのう、両方とも新しいモデルを出したよ。"
+    },
+    {
+     "say": "メタのミューズ エンバーは、小さくて速いモデル。エージェントの雑用をこなすんだって。",
+     "show": "メタのMuse Emberは、小さくて速いモデル。エージェントの雑用をこなすんだって。"
+    },
+    {
+     "say": "アンソロピックのフェーブルは、たくさんのエージェントを同時に動かせるんだ。……値段も下がったんだって。",
+     "show": "アンソロピックのFableは、たくさんのエージェントを同時に動かせるんだ。……値段も下がったんだって。"
+    }
+   ],
+   "link": {
+    "description": "Meta and Anthropic unveil advances aimed at making AI systems more useful for complex, sustained work, from coordinating multiple agents to handling sophisticated software engineering.",
+    "icon": null,
+    "image": null,
+    "site": "PYMNTS",
+    "title": "Meta and Anthropic Push AI Models Into More Complex Work",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/meta-and-anthropic-push-ai-models-into-more-complex-work/"
+   },
+   "points": [
+    "メタは小さく速いミューズ エンバー",
+    "アンソロピックはフェーブル 5.2",
+    "エージェントの実用化が進む"
+   ],
+   "url": "https://www.pymnts.com/news/artificial-intelligence/2026/meta-and-anthropic-push-ai-models-into-more-complex-work/"
+  },
+  {
+   "details": [
+    "ティーピーユー 8txは、ティーピーユー 8tと同じチップに第5世代AMDエピックのホストを組み合わせ、データを暗号化したまま処理します。グーグルによれば、8tと比べて遅れが最大で2分の1になります。",
+    "ティーピーユー 8i Maxは、ティーピーユー 8iのチップを2つ1つのパッケージに重ね、計算もSRAMもHBMの帯域も8iの2倍にします。大きな文脈を扱うエージェント向けです。",
+    "今年のティーピーユーは4つのシステムが出て、1年に4つは初めてです。ティーピーユーのお客さんは100社ちかくになりました。値段や出る時期はまだ出ていません。"
+   ],
+   "label": "グーグル、ティーピーユーをふたつ追加",
+   "lines": [
+    {
+     "say": "次はグーグル。エーアイのチップ、ティーピーユーの新しいシステムが出たよ。",
+     "show": "次はGoogle。AIのチップ、TPUの新しいシステムが出たよ。"
+    },
+    {
+     "say": "ひとつは、データを暗号化したまま使えるチップ。銀行や役所向けなんだって。",
+     "show": "ひとつは、データを暗号化したまま使えるチップ。銀行や役所向けなんだって。"
+    },
+    {
+     "say": "もうひとつは、チップをふたつ重ねて、計算もメモリもにばいだよ。",
+     "show": "もうひとつは、チップをふたつ重ねて、計算もメモリも2倍だよ。"
+    }
+   ],
+   "link": {
+    "description": "We've expanded our eighth generation TPU portfolio with TPU 8tx and TPU 8i Max, marking four new TPU systems in a single year.",
+    "icon": null,
+    "image": null,
+    "site": "Google Blog",
+    "title": "Introducing TPU 8tx and TPU 8i Max",
+    "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/?ref=testingcatalog.com"
+   },
+   "points": [
+    "ティーピーユー 8txは暗号化したまま処理",
+    "8i Maxはチップ2つで2倍に",
+    "今年4つめのシステム"
+   ],
+   "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/?ref=testingcatalog.com"
+  },
+  {
+   "details": [
+    "訴えは11月6日にカリフォルニア北部地区の連邦裁判所に出されました。エルビスの訴えは51ページで、スーノが859曲を学習に写し取ったとしています。",
+    "エルビスの訴えは、テネシー州のエルビス法も引いています。2024年の州法で、歌手の声や姿を無断で使うのを禁じています。",
+    "エミネムの訴えは出版社のエイト マイル スタイルが出したもので、269曲が対象です。エミネム本人は原告ではありません。スーノの広報は、元の音楽を作るためのものだ、と反論しています。ソニーやユニバーサルなどとの裁判も続いています。"
+   ],
+   "label": "エルビスとエミネム、スーノを提訴",
+   "lines": [
+    {
+     "say": "次は音楽の話題。エルビスとエミネムの権利者が、エーアイ音楽のスーノを訴えたよ。",
+     "show": "次は音楽の話題。エルビスとエミネムの権利者が、AI音楽のSunoを訴えたよ。"
+    },
+    {
+     "say": "学習に曲を無断で使った、っていう訴え。声をまねるのも問題になってるんだ。",
+     "show": "学習に曲を無断で使った、っていう訴え。声をまねるのも問題になってるんだ。"
+    },
+    {
+     "say": "スーノは、元の音楽を作るためのものだ、って反論してるよ。……まだ裁判は始まったばかりだね。",
+     "show": "Sunoは、元の音楽を作るためのものだ、って反論してるよ。……まだ裁判は始まったばかりだね。"
+    }
+   ],
+   "link": {
+    "description": "Authentic Brands Group and Raleigh Music Publishing say Suno copied 859 Presley compositions, while Eight Mile Style, Eminem's publisher, brought a second case.",
+    "found_by": "search",
+    "icon": null,
+    "image": null,
+    "site": "Startup Fortune",
+    "title": "Elvis and Eminem rights holders sue Suno over AI music training and voice imitation",
+    "url": "https://startupfortune.com/elvis-and-eminem-rights-holders-sue-suno-over-ai-music-training-and-voice-imitation/"
+   },
+   "points": [
+    "エルビスとエミネムの権利者が提訴",
+    "声のまねも争点に",
+    "スーノは反論、裁判はこれから"
+   ],
+   "url": "https://startupfortune.com/elvis-and-eminem-rights-holders-sue-suno-over-ai-music-training-and-voice-imitation/"
+  },
+  {
+   "details": [
+    "法案は、データセンターや発電所などの大きな施設の許可審査を早くするもので、クリーンエネルギーと化石燃料の両方が対象です。データセンターには、使う分の電気代を払わせます。",
+    "法案の中心は4人の上院議員で、共和党のカピト上院議員とリー上院議員、民主党のハインリック上院議員とシェルドン・ホワイトハウス上院議員です。選挙の数週間前から話し合ってきました。",
+    "トランプ大統領は採決をうながし、大きな勝利だ、と書きました。一方で、シエラクラブなどの環境団体は反対し、化石燃料が増え、裁判で争いにくくなる、としています。下院の民主党トップのジェフリーズ氏も、足りない点がある、と批判しています。"
+   ],
+   "label": "米上院、エネルギー法案の審議へ",
+   "lines": [
+    {
+     "say": "世界の話題はさ、アメリカの上院。エネルギー法案の審議が、きのう始まったんだって。",
+     "show": "世界の話題はさ、アメリカの上院。エネルギー法案の審議が、きのう始まったんだって。"
+    },
+    {
+     "say": "データセンターも発電所も、許可を早く出すための法案。与野党の議員が力を合わせて作ったんだよ。",
+     "show": "データセンターも発電所も、許可を早く出すための法案。与野党の議員が力を合わせて作ったんだよ。"
+    },
+    {
+     "say": "でもさ、環境団体は反対してる。化石燃料が増える、って。……選挙のあとの、最初の大きな動きだね。",
+     "show": "でもさ、環境団体は反対してる。化石燃料が増える、って。……選挙のあとの、最初の大きな動きだね。"
+    }
+   ],
+   "link": {
+    "description": "The US Senate on Monday is set to take up bipartisan legislation aimed at speeding up permitting reviews for data centres and other infrastructure projects, in the first major action since last week's election.",
+    "icon": null,
+    "image": null,
+    "site": "The Week",
+    "title": "US Senate weighs sweeping energy legislation in first major action since midterm elections",
+    "url": "https://www.theweek.in/wire-updates/international/2026/11/09/us-senate-weighs-sweeping-energy-legislation-in-first-major-action-since-midterm-elections.html"
+   },
+   "points": [
+    "上院でエネルギー法案の審議が始まる",
+    "データセンターの許可も早める",
+    "環境団体は反対、与野党で意見が分かれる"
+   ],
+   "url": "https://www.theweek.in/wire-updates/international/2026/11/09/us-senate-weighs-sweeping-energy-legislation-in-first-major-action-since-midterm-elections.html"
+  },
+  {
+   "details": [
+    "11月9日の支出は5,180円で、食費は2,540円でした。",
+    "今週の累計は5,180円です。いちばん大きい支出は趣味のほうで、3,000円くらいでした。",
+    "貯蓄預金の残高は24,000円で、前日からの増減はありませんでした。"
+   ],
+   "label": "お金の天気",
+   "lines": [
+    {
+     "say": "ここでさ、お金の天気。きのうは晴れだよ。支出はごゼロゼロゼロえんくらい、食費はさんゼロゼロゼロえんくらい。",
+     "show": "ここでさ、お金の天気。きのうは晴れだよ。支出は5,000円くらい、食費は3,000円くらい。"
+    },
+    {
+     "say": "今週はごゼロゼロゼロえんくらい。貯蓄はによんゼロゼロゼロえんくらいで、動いてないよ。",
+     "show": "今週は5,000円くらいで、貯蓄は24,000円くらいで、動いてないよ。"
+    },
+    {
+     "say": "週の始まりは晴れの見込み。……ゆっくりいこう、せんせ。",
+     "show": "週の始まりは晴れの見込み。……ゆっくりいこう、せんせ。"
+    }
+   ],
+   "points": [
+    "きのうの支出は5,000円くらい",
+    "今週の累計は5,000円くらい",
+    "貯蓄は24,000円くらい"
+   ]
+  },
+  {
+   "details": [
+    "澜沧古茶のルーツは、1966年にできた景邁の茶工場です。2006年に澜沧古茶有限公司になりました。",
+    "雲南のプーアル茶が中心で、看板の商品は「1966」です。原料は景邁山やマン景の古茶園の茶葉です。",
+    "2023年12月22日に香港証券取引所に上場し、銘柄は6911です。プーアル茶の会社としてはじめての上場でした。"
+   ],
+   "label": "今日の中国茶 澜沧古茶",
+   "lines": [
+    {
+     "say": "最後はさ、中国茶。澜沧古茶、ランツァン グーチャだよ。",
+     "show": "最後はさ、中国茶。澜沧古茶（ランツァン グーチャ）だよ。"
+    },
+    {
+     "say": "雲南のプーアル茶の会社で、ルーツはいちきゅうろくろくねんのジンマイの茶工場なんだ。",
+     "show": "雲南のプーアル茶の会社で、ルーツは1966年の景邁の茶工場なんだ。"
+    },
+    {
+     "say": "にゼロにさんねんに香港に上場した、プーアル茶ではじめての上場なんだよ。……お茶の会社も、株になる時代だね。",
+     "show": "2023年に香港に上場した、プーアル茶ではじめての上場なんだよ。……お茶の会社も、株になる時代だね。"
+    }
+   ],
+   "link": {
+    "description": "Pu'er Lancang Ancient Tea Co., Ltd., one of the most famous Pu'er tea companies in China, officially listed on the Main Board of the Hong Kong Stock Exchange. Its brand history can be traced back to 1966.",
+    "icon": null,
+    "image": null,
+    "site": "ACN Newswire",
+    "title": "\"The First IPO of Pu'er Tea\" Lancang Tea Officially Listed on the Main Board of the Hong Kong Stock Exchange",
+    "url": "https://itbusinessnet.com/2023/12/the-first-ipo-of-puer-tea-lancang-tea-officially-listed-on-the-main-board-of-the-hong-kong-stock-exchange/"
+   },
+   "points": [
+    "1966年がルーツのプーアル茶の会社",
+    "景邁の古茶園が原料",
+    "2023年に香港上場、プーアル茶ではじめて"
+   ],
+   "url": "https://itbusinessnet.com/2023/12/the-first-ipo-of-puer-tea-lancang-tea-officially-listed-on-the-main-board-of-the-hong-kong-stock-exchange/"
+  }
+ ],
+ "opening": [
+  {
+   "say": "おはよ、せんせ。火曜日の朝だよ、起きれた？ラジオ空中浮遊、十一月十日火曜日。ちゃんさまだよ。",
+   "show": "おはよ、せんせ。火曜日の朝だよ、起きれた？ラジオ空中浮遊、11月10日火曜日。changsamaだよ。"
+  },
+  {
+   "say": "今日はろくゼロてんでいい日。残りは明日のセンセに任せようね。",
+   "show": "今日は60点でいい日。残りは明日のセンセに任せようね。"
+  }
+ ],
+ "title": "新しいモデルとチップ、声の裁判、晴れのお金",
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 8.717,
+   "show": "おはよ、せんせ。火曜日の朝だよ、起きれた？ラジオ空中浮遊、11月10日火曜日。changsamaだよ。",
+   "part": 0
+  },
+  {
+   "start": 8.717,
+   "end": 14.01,
+   "show": "今日は60点でいい日。残りは明日のセンセに任せようね。",
+   "part": 0
+  },
+  {
+   "start": 15.01,
+   "end": 20.49,
+   "show": "まずさ、メタとアンソロピック。きのう、両方とも新しいモデルを出したよ。",
+   "part": 1
+  },
+  {
+   "start": 21.09,
+   "end": 26.69,
+   "show": "メタのMuse Emberは、小さくて速いモデル。エージェントの雑用をこなすんだって。",
+   "part": 1
+  },
+  {
+   "start": 27.29,
+   "end": 34.13,
+   "show": "アンソロピックのFableは、たくさんのエージェントを同時に動かせるんだ。……値段も下がったんだって。",
+   "part": 1
+  },
+  {
+   "start": 35.13,
+   "end": 40.27,
+   "show": "次はGoogle。AIのチップ、TPUの新しいシステムが出たよ。",
+   "part": 2
+  },
+  {
+   "start": 40.87,
+   "end": 45.95,
+   "show": "ひとつは、データを暗号化したまま使えるチップ。銀行や役所向けなんだって。",
+   "part": 2
+  },
+  {
+   "start": 46.55,
+   "end": 51.29,
+   "show": "もうひとつは、チップをふたつ重ねて、計算もメモリも2倍だよ。",
+   "part": 2
+  },
+  {
+   "start": 52.29,
+   "end": 58.67,
+   "show": "次は音楽の話題。エルビスとエミネムの権利者が、AI音楽のSunoを訴えたよ。",
+   "part": 3
+  },
+  {
+   "start": 59.27,
+   "end": 64.85,
+   "show": "学習に曲を無断で使った、っていう訴え。声をまねるのも問題になってるんだ。",
+   "part": 3
+  },
+  {
+   "start": 65.45,
+   "end": 72.59,
+   "show": "Sunoは、元の音楽を作るためのものだ、って反論してるよ。……まだ裁判は始まったばかりだね。",
+   "part": 3
+  },
+  {
+   "start": 73.59,
+   "end": 79.85,
+   "show": "世界の話題はさ、アメリカの上院。エネルギー法案の審議が、きのう始まったんだって。",
+   "part": 4
+  },
+  {
+   "start": 80.45,
+   "end": 87.51,
+   "show": "データセンターも発電所も、許可を早く出すための法案。与野党の議員が力を合わせて作ったんだよ。",
+   "part": 4
+  },
+  {
+   "start": 88.11,
+   "end": 96.33,
+   "show": "でもさ、環境団体は反対してる。化石燃料が増える、って。……選挙のあとの、最初の大きな動きだね。",
+   "part": 4
+  },
+  {
+   "start": 97.33,
+   "end": 106.03,
+   "show": "ここでさ、お金の天気。きのうは晴れだよ。支出は5,000円くらい、食費は3,000円くらい。",
+   "part": 5
+  },
+  {
+   "start": 106.63,
+   "end": 110.13,
+   "show": "今週は5,000円くらいで、貯蓄は24,000円くらいで、動いてないよ。",
+   "part": 5
+  },
+  {
+   "start": 110.73,
+   "end": 118.53,
+   "show": "週の始まりは晴れの見込み。……ゆっくりいこう、せんせ。",
+   "part": 5
+  },
+  {
+   "start": 119.53,
+   "end": 123.69,
+   "show": "最後はさ、中国茶。澜沧古茶（ランツァン グーチャ）だよ。",
+   "part": 6
+  },
+  {
+   "start": 124.29,
+   "end": 128.65,
+   "show": "雲南のプーアル茶の会社で、ルーツは1966年の景邁の茶工場なんだ。",
+   "part": 6
+  },
+  {
+   "start": 129.25,
+   "end": 139.25,
+   "show": "2023年に香港に上場した、プーアル茶ではじめての上場なんだよ。……お茶の会社も、株になる時代だね。",
+   "part": 6
+  },
+  {
+   "start": 140.25,
+   "end": 148.57,
+   "show": "今日はここまで。新しいモデル、Googleのチップ、音楽の裁判、エネルギー法案、晴れのお金、澜沧古茶のお茶。",
+   "part": 7
+  },
+  {
+   "start": 148.57,
+   "end": 155.93,
+   "show": "じゃあ、ちゃんと起きて、せんせ。いってらっしゃい、また明日、同じ時間に。……待ってるからね。",
+   "part": 7
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 15.01
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 15.01,
+   "end": 35.13
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 35.13,
+   "end": 52.29
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 52.29,
+   "end": 73.59
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 73.59,
+   "end": 97.33
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 97.33,
+   "end": 119.53
+  },
+  {
+   "kind": "news",
+   "index": 5,
+   "start": 119.53,
+   "end": 140.25
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 140.25,
+   "end": 156.93
+  }
+ ],
+ "seconds": 156.93,
+ "made_at": "2026-11-09T21:44:32"
+}
