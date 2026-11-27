@@ -1,0 +1,51 @@
+{
+ "format": "myradio/character-1",
+ "type": "sprites",
+ "size": [
+  1024,
+  1024
+ ],
+ "background": "#161a26",
+ "base": "base.png",
+ "parts": {
+  "mouth_half": {
+   "src": "mouth_half.png",
+   "x": 463,
+   "y": 472
+  },
+  "mouth_open": {
+   "src": "mouth_open.png",
+   "x": 463,
+   "y": 472
+  },
+  "blink": {
+   "src": "blink.png",
+   "x": 374,
+   "y": 357
+  },
+  "smile_mouth": {
+   "src": "smile_mouth.png",
+   "x": 463,
+   "y": 472
+  },
+  "half_blink": {
+   "src": "half_blink.png",
+   "x": 374,
+   "y": 357
+  }
+ },
+ "mouth": {
+  "1": "mouth_half",
+  "2": "mouth_open"
+ },
+ "eye": {
+  "blink": "blink",
+  "half": "half_blink"
+ },
+ "expressions": {
+  "smile": {
+   "mouth": "smile_mouth"
+  }
+ },
+ "note": "ユーザーの分身キャラクター changsama をモチーフに、AIで生成した画像をもとに作成したキャラクターです。base.png に、口（mouth_*）と目（blink・half_blink）の小さな画像を x, y の位置に重ねる"
+}
